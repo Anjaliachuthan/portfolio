@@ -55,8 +55,8 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/resume.pdf"
-              download
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
+              download="resume.pdf"
               className="glass px-10 py-5 rounded-2xl flex items-center gap-3 text-white font-semibold hover:bg-white/10 transition-all"
             >
               <FiDownload />
