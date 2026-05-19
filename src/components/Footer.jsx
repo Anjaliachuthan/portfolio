@@ -6,9 +6,9 @@ const Footer = () => {
         <p className="text-gray-500 text-sm">
           &copy; {new Date().getFullYear()} Anjali Achuthan. All rights reserved.
         </p>
-        <p className="text-gray-600 text-[10px] mt-4 uppercase tracking-[0.3em]">
+        {/* <p className="text-gray-600 text-[10px] mt-4 uppercase tracking-[0.3em]">
           Built with React & Framer Motion
-        </p>
+        </p> */}
       </div>
     </footer>
   );
