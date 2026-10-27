@@ -2,13 +2,15 @@ import { motion } from "framer-motion";
 import { 
   SiReact, SiJavascript, SiDjango, SiPython, 
   SiPostgresql, SiVercel, SiGithub, SiTypescript,
-  SiHtml5, SiCss, SiRedux, SiGit, SiGitlab, SiJira
+  SiHtml5, SiCss, SiRedux, SiGit, SiGitlab, SiJira,
+  SiNodedotjs
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
 const skills = [
   { name: "React Native", icon: SiReact, color: "#61DAFB" },
   { name: "React", icon: SiReact, color: "#61DAFB" },
+  { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
   { name: "Django", icon: SiDjango, color: "#092E20" },
   { name: "Python", icon: SiPython, color: "#3776AB" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
